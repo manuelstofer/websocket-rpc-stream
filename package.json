@@ -1,0 +1,22 @@
+{
+  "name": "websocket-rpc-stream",
+  "version": "0.0.1",
+  "description": "RPC over websockets with status updates.",
+  "main": "src/rpc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "websocket",
+    "rpc",
+    "stream"
+  ],
+  "author": "Manuel Stofer",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "websocket-multiplexer": "0.0.1",
+    "emitter": "0.0.1"
+  }
+}

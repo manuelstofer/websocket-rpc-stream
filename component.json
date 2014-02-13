@@ -1,0 +1,17 @@
+{
+  "name": "websocket-rpc-stream",
+  "repo": "manuelstofer/websocket-rpc-stream",
+  "description": "RPC over websockets with status updates.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "manuelstofer/websocket-multiplexer": "0.0.1",
+    "component/emitter": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "src/websocket-rpc-stream.js",
+  "scripts": [
+    "src/websocket-rpc-stream.js"
+  ]
+}

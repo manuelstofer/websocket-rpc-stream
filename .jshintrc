@@ -1,0 +1,15 @@
+{
+    "curly": true,
+    "latedef": "nofunc",
+    "eqnull": true,
+    "eqeqeq": true,
+    "undef": true,
+    "strict": true,
+    "node" : true,
+    "browser" : true,
+    "globalstrict": true,
+    "trailing": true,
+    "newcap": false,
+    "nonew": true,
+    "validthis": true
+}
