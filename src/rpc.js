@@ -50,12 +50,10 @@ Rpc.prototype.handleCall = function (evt) {
             args   = packet.args,
             stream = {
                 end: function () {
-                    console.log({ end: arguments });
                     channel.send({ type: 'end', args: [].slice.call(arguments) });
                     channel.close();
                 },
                 progress: function () {
-                    console.log({ progress: arguments })
                     channel.send({ type: 'progress', args: [].slice.call(arguments) });
                 }
             };
