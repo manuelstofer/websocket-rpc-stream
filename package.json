@@ -17,6 +17,6 @@
   "readmeFilename": "Readme.md",
   "dependencies": {
     "websocket-multiplexer": "0.0.2",
-    "emitter": "0.0.1"
+    "emitter": "git+ssh://git@github.com:kaerus-component/emitter.git"
   }
 }
