@@ -37,12 +37,12 @@ wss.on('connection', function (ws) {
     var rpc = new Rpc({ socket: ws }),
         stream = rpc.call('bla', 10);
 
-    stream.on('progress', function (result) {
-        console.log(result);
+    stream.on('progress', function () {
+        console.log(arguments);
     });
 
-    stream.on('end', function (result) {
-        console.log(result);
+    stream.on('end', function () {
+        console.log(arguments);
         wss.close();
     });
 });

@@ -42,7 +42,7 @@ Rpc.prototype.call = function () {
  * @param evt
  */
 Rpc.prototype.handleCall = function (evt) {
-    var channel        = evt.channel;
+    var channel = evt.channel;
 
     channel.addEventListener('message', function (evt) {
         var packet = evt.data,
@@ -58,7 +58,7 @@ Rpc.prototype.handleCall = function (evt) {
                 }
             };
 
-        this.emit.apply(this, [].concat(call, args, stream));
-        this.emit.apply(this, [].concat('_any', call, args, stream));
+        this.emit.apply(this, [].concat(call, args || [], stream));
+        this.emit.apply(this, [].concat('_any', call, args || [], stream));
     }.bind(this));
 };
