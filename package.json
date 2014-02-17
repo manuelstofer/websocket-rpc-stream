@@ -16,7 +16,7 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
-    "websocket-multiplexer": "0.0.1",
+    "websocket-multiplexer": "0.0.2",
     "emitter": "0.0.1"
   }
 }
