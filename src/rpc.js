@@ -1,6 +1,6 @@
 'use strict';
 
-var Emitter     = require('emitter'),
+var emitter     = require('emitter'),
     Multiplexer = require('websocket-multiplexer'),
     Stream      = require('./stream');
 
@@ -13,12 +13,12 @@ module.exports = Rpc;
  * @constructor
  */
 function Rpc (options) {
+    emitter(this);
     this.socket = options.socket;
     this.multiplexer = new Multiplexer({ socket: options.socket });
     this.multiplexer.addEventListener('channel', this.handleCall.bind(this));
 }
 
-Emitter(Rpc.prototype);
 
 
 /**

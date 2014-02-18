@@ -1,10 +1,11 @@
 'use strict';
 
-var Emitter = require('emitter');
+var emitter = require('emitter');
 
 module.exports = Stream;
 
 function Stream (channel) {
+    emitter(this);
     this.channel = channel;
 
     channel.addEventListener('message', function (evt) {
@@ -12,5 +13,3 @@ function Stream (channel) {
         this.emit.apply(this, [data.type].concat(data.args || []));
     }.bind(this));
 }
-
-Emitter(Stream.prototype);
