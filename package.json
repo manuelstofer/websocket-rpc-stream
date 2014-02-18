@@ -1,6 +1,6 @@
 {
   "name": "websocket-rpc-stream",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "RPC over websockets with status updates.",
   "main": "src/rpc.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
-    "websocket-multiplexer": "0.0.3",
+    "websocket-multiplexer": "0.0.4",
     "emitter": "git+ssh://git@github.com:kaerus-component/emitter.git"
   }
 }

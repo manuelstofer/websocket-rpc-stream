@@ -19,8 +19,6 @@ function Rpc (options) {
     this.multiplexer.addEventListener('channel', this.handleCall.bind(this));
 }
 
-
-
 /**
  * Call a remote procedure
  *
@@ -34,7 +32,6 @@ Rpc.prototype.call = function () {
     channel.send({ call: name, args: args });
     return new Stream(channel);
 };
-
 
 /**
  * Handle a remote procedure call
