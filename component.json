@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "manuelstofer/websocket-multiplexer": "0.0.4",
-    "component/emitter": "0.1.2"
+    "manuelstofer/component-emitter": "0.1.2"
   },
   "development": {},
   "license": "MIT",
