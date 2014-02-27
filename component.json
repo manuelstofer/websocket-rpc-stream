@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "manuelstofer/websocket-multiplexer": "0.0.4",
-    "kaerus-component/emitter": "0.1.6"
+    "tower/emitter": "0.1.2"
   },
   "development": {},
   "license": "MIT",
