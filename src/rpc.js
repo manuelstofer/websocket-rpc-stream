@@ -13,6 +13,9 @@ module.exports = Rpc;
  * @constructor
  */
 function Rpc (options) {
+    if (!(this instanceof Rpc)) {
+        return new Rpc(options);
+    }
     emitter(this);
     this.socket = options.socket;
     this.multiplexer = new Multiplexer({ socket: options.socket });

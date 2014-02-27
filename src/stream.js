@@ -5,6 +5,10 @@ var emitter = require('emitter');
 module.exports = Stream;
 
 function Stream (channel) {
+
+    if (!(this instanceof Stream)) {
+        return new Stream(channel);
+    }
     emitter(this);
     this.channel = channel;
 
