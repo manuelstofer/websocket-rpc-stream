@@ -1,6 +1,6 @@
 'use strict';
 
-var emitter     = require('emitter'),
+var emitter     = require('component-emitter'),
     Multiplexer = require('websocket-multiplexer'),
     Stream      = require('./stream');
 
