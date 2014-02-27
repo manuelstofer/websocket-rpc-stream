@@ -10,8 +10,9 @@
   },
   "development": {},
   "license": "MIT",
-  "main": "src/websocket-rpc-stream.js",
+  "main": "src/rpc.js",
   "scripts": [
-    "src/websocket-rpc-stream.js"
+    "src/rpc.js",
+    "src/stream.js"
   ]
 }
