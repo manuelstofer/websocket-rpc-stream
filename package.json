@@ -13,7 +13,7 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
-    "websocket-multiplexer": "git://github.com/manuelstofer/websocket-multiplexer#0.0.5"
+    "websocket-multiplexer": "git://github.com/manuelstofer/websocket-multiplexer#0.0.5",
     "component-emitter": "~1.1.2"
   }
 }
