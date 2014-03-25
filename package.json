@@ -3,9 +3,6 @@
   "version": "0.0.10",
   "description": "RPC over websockets with status updates.",
   "main": "src/rpc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": "",
   "keywords": [
     "websocket",
@@ -16,7 +13,7 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
-    "websocket-multiplexer": "0.0.4",
+    "websocket-multiplexer": "git://github.com/manuelstofer/websocket-multiplexer#0.0.5"
     "component-emitter": "~1.1.2"
   }
 }
