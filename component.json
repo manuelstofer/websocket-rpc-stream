@@ -5,7 +5,7 @@
   "version": "0.0.12",
   "keywords": [],
   "dependencies": {
-    "manuelstofer/websocket-multiplexer": "0.0.5",
+    "manuelstofer/websocket-multiplexer": "0.0.6",
     "manuelstofer/component-emitter": "0.1.2"
   },
   "development": {},
