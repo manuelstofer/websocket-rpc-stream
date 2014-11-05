@@ -14,6 +14,6 @@
   "readmeFilename": "Readme.md",
   "dependencies": {
     "websocket-multiplexer": "~0.0.6",
-    "component-emitter": "~1.1.2"
+    "component-emitter": "~1.1.3"
   }
 }
