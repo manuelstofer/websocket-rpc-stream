@@ -2,7 +2,7 @@
   "name": "websocket-rpc-stream",
   "repo": "manuelstofer/websocket-rpc-stream",
   "description": "RPC over websockets with status updates.",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "keywords": [],
   "dependencies": {
     "manuelstofer/websocket-multiplexer": "0.0.6",

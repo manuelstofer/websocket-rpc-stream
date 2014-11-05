@@ -1,6 +1,6 @@
 {
   "name": "websocket-rpc-stream",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "RPC over websockets with status updates.",
   "main": "src/rpc.js",
   "repository": "",
